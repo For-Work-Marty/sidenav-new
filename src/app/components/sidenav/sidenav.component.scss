@@ -1,12 +1,12 @@
 div {
+  display: flex;
   background-color: blue;
-  height: 100vh;
-  margin-top: -40px;
   position: relative;
+  height: inherit;
 }
 h2 {
   text-align: center;
-  margin-top: 40px;
+  width:100%;
 }
 span.contact {
   width: 100%;
@@ -15,5 +15,5 @@ span.contact {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
