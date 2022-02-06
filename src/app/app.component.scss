@@ -9,6 +9,7 @@ div.main {
 app-sidenav {
   height: 100%;
   width: 20%;
+  max-width: auto;
   top: 0;
   left: 0;
   position: fixed;
@@ -18,13 +19,28 @@ app-sidenav {
 
 div.content {
   width: 80%;
-  float:right;
+  float: right;
 }
 
 app-header {
   top: 0;
   width: 100%;
   position: fixed;
+}
+
+@media screen and (max-height: 720px) {
+
+    /**
+      app-sidenav {
+        max-width: 0px;
+        position:relative;
+      }
+      div.content {
+        width: 100%;
+        position:relative;
+      }
+    */
+
 }
 
 
