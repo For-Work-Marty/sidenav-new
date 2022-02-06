@@ -7,6 +7,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainModule } from './components/main/main.module';
 import { RouterModule, Routes } from '@angular/router';
+import { ContentComponent } from './components/content/content.component';
 
 
 
@@ -15,7 +16,8 @@ import { RouterModule, Routes } from '@angular/router';
   declarations: [
     AppComponent,
     SidenavComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
