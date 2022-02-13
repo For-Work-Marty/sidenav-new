@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  // TODO: Test
   ngOnInit(): void {
   }
 
